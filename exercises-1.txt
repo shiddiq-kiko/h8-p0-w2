@@ -34,7 +34,7 @@ END IF
 STORE 'mesin cuci'
 STORE 'pakaian' with 0
 
-WHILE 'pakaian' < 20
+WHILE 'pakaian' <= 20
     'pakaian' = 'pakaian' + 1
 END WHILE
 DISPLAY 'mesin cuci menyala'
