@@ -44,6 +44,8 @@ var counter2 = 1
 while(counter2 <= 100) {
   if (counter2 % 3 === 0) {
     console.log('3 Kelipatan 3')
+  } else {
+      console.log('" "')
   }
   counter2 += 2;
 }
@@ -53,7 +55,9 @@ var counter3 = 1
 while(counter3 <= 100) {
   if (counter3 % 6 === 0) {
     console.log('6 Kelipatan 6')
-  }
+  } else {
+    console.log('" "')
+}
   counter3 += 5
 }
 
@@ -62,6 +66,8 @@ var counter4 = 1
 while(counter4 <= 100) {
   if(counter4 % 10 === 0) {
     console.log('10 kelipatan 10')
-  }
+  } else {
+    console.log('" "')
+}
   counter4 += 9
 }
